@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1" content="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>Epick task</h1>
+	
+	<h2>Cadastrar tarefa</h2>
+	
+	<form action="/task" method="POST">
+	
+		<label for="title">Titulo</label>
+		<input name="title" id="title"/>
+		
+		<label for="description">Descrição</label>
+		<textarea rows="" cols="" name="description" id="desciption"></textarea>
+		
+		<label for="points">Pontos</label>
+		<input type="range" id="points" name="points">
+		
+		<a href="/task">Cancelar</a>
+		<button>Salvar</button>		
+	</form>
+
+</body>
+</html>
